@@ -1,15 +1,14 @@
 #!/bin/bash
 
-NUMBEROFARGS=4;
+NUMBEROFARGS=2;
 
 if [ $# -lt $NUMBEROFARGS ]
 then
-	>&2 echo -e "Usage is:\n find-and-format.sh (line file) (sample count) (output location) (input file) [input files...]"
+	>&2 echo -e "Usage is:\n find-and-format.sh (line file) (sample count)"
 	exit 1;
 else
 	LINEFILE=$1; shift;
 	SAMPLECOUNT=$1; shift;
-	OUTPUTLOCATION=$1; shift;
 fi
 
 CLASSES=`cat "$LINEFILE" | cut -f 3 | sort | uniq | paste -sd "," - `
