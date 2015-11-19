@@ -1,0 +1,6 @@
+set view map
+set datafile separator ' '
+set xrange [2:200]
+set log x
+set log z
+splot 'mlp-custom-cost' with pm3d

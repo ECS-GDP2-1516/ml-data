@@ -1,0 +1,11 @@
+set datafile separator ' '
+splot 'mlp-custom-cost' with lines
+set log x
+set xrange [1:200]
+set xlabel 'Sampling Frequency / Hz'
+set ylabel 'MLP Hidden Layers'
+set zlabel 'Accuracy / %' rotate by 90
+set contour base
+set cntrparam levels discrete 0.5,1.0,1.5,2
+unset key
+replot
