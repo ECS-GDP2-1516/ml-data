@@ -1,5 +1,9 @@
 plot 'acc_revolver_anti_2.csv' using 1:2 with lines title columnhead, '' using 1:3 with lines title columnhead, '' using 1:4 with lines title columnhead
 
 messed up files
-acc_revolver_anti_7.csv
-acc_revolver_anti_9.csv
+acc_revolver_anti_7.csv (no anti clockwise data in linefile_rev_acc_7)
+acc_revolver_anti_9.csv (no anti clockwise data in linefile_rev_acc_9)
+
+
+missing files
+acc_ballerina_3.csv
