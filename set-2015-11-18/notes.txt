@@ -12,6 +12,7 @@ gyro_shrug - x series
 messed up files
 acc_revolver_anti_7.csv (no anti clockwise data in linefile_rev_acc_7)
 acc_revolver_anti_9.csv (no anti clockwise data in linefile_rev_acc_9)
+gyro_shrug_16.csv
 
 
 missing files
