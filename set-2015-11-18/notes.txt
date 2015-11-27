@@ -1,0 +1,24 @@
+set datafile separator ','
+
+plot 'acc_revolver_anti_2.csv' using 1:2 with lines title columnhead, '' using 1:3 with lines title columnhead, '' using 1:4 with lines title columnhead
+
+acc_ballerina - x series
+gyro_ballerina - y series
+acc_revolver - x series
+gyro_revolver - y series
+acc_shrug - x series
+gyro_shrug - x series
+
+messed up files
+acc_revolver_anti_7.csv (no anti clockwise data in linefile_rev_acc_7)
+acc_revolver_anti_9.csv (no anti clockwise data in linefile_rev_acc_9)
+gyro_shrug_16.csv
+
+
+missing files
+acc_ballerina_2.csv
+acc_shrug_2.csv
+gyro_ballerina_2.csv
+gyro_shrug_2.csv
+acc_walking_6.csv
+acc_revolver_anti_19.csv
